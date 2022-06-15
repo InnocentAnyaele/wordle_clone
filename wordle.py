@@ -38,7 +38,7 @@ class Wordle:
         for w in alpha:
             self.word_dict[w] = 'b'
                     
-        count = 5
+        count = 6
         while count > 0:
             self.print_all() # prints all alphabets and their color codes 
             self.print_guesses() # print all the attempts done by the user
